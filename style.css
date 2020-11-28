@@ -1,0 +1,99 @@
+@import url('https;//fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #f7f7f7;
+	text-align: center;
+	background-color: #1F0812;
+}
+
+#callout{
+	width: 100%;
+	background-color: #f7f7f7;
+	height: auto;
+	overflow: hidden;
+}
+
+#callout p {
+	text-align: right;
+	color: #444;
+	font-size: 14px;
+	padding-right: 5%;
+}
+
+#callout p a {
+	color: #444;
+	text-decoration: none;
+}
+
+#callout img{
+	text-align: left;
+	padding-left: 2%;
+	margin: 0;
+}
+
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding-left: 10%;
+}
+
+nav ul li {
+	float: left;
+	width: 15%;
+}
+
+nav ul li a {
+	font-weight: 700;
+	text-decoration: none;
+	color: #F3B3A6;
+	display: block;
+	padding: 5% 12%;
+}
+
+nav ul li a:hover, nav ul li.active a {
+	background-color: #B98B82;
+	color: #fff;	
+}
+
+
+.clearfix {
+	clear: both;
+}
+
+.social {
+	font-size: 400%;
+}
+.social a {
+	color: #fff;
+	padding: 3%;
+}
+.social a:hover {
+	color:  #B98B82;
+}
+    
+@media (max-width: 768px){
+	nav ul {
+		padding-left: 0;	
+	}
+	nav ul li {
+		width: 100%;
+	}
+	nav ul li a{
+		padding: 8px 0px;
+		font-size: 16px;
+	}
+	.left-col, .sidebar, .one-third{
+		width: 100%;
+		padding: 0;
+	}
+	.social {
+		font-size: 200%;
+	}
+	p {
+		font-size: 15px;
+	}
+}
